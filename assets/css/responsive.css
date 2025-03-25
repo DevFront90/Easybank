@@ -514,4 +514,246 @@
 
 
 
+
+@media screen and (max-width:375px) {
+    
+    main {
+        height: 900px;
+        background-color: var(--color-third);
+        position: relative;
+        overflow: visible;
+    }
+
+    header {
+        padding: 10px 3%;
+    }
+
+   
+    .menu-content {
+        .flex-position {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .list-icon {
+            display: block;
+        }
+
+        .mobile-navBar {
+            display: block;
+        }
+
+        nav.desktop {
+            display: none;
+        }
+
+        .mobile-navBar.abrir-menu~.overlay-opacity {
+            display: block;
+        }
+    }
+
+  
+    .support-wraper {
+        padding: 0 6%;
+        margin: -90px auto;
+        text-align: center;
+    }
+
+    .vertical-align .intro-right {
+        width: 100%;
+        height: auto;
+        top: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+
+    .phone-single {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .phone-single .mockup-cell {
+        width: 300px;
+        height: 500px;
+    }
+
+    .support-wraper .title-next h2 {
+        font-size: 30px;
+    }
+
+    .support-wraper .title-next .text-financial p {
+        font-size: 14px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .button-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    
+    section.about-session {
+        height: auto;
+        padding: 20px;
+        background-color: var(--color-third);
+    }
+
+    .details-choose {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .details-choose h2 {
+        font-size: 25px;
+        color: var(--color-six);
+    }
+
+    .details-choose p {
+        font-size: 14px;
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+    .parts-box .flex-position {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parts-box .cards {
+        text-align: center;
+    }
+
+
+    section.articles-session {
+        height: auto;
+        padding: 40px 0;
+        background: linear-gradient(to bottom, var(--color-first), var(--color-seven));
+    }
+
+    .latest-title h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .blog-demonstrations .flex-position {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-top: 50px;
+    }
+
+    .case-Compartment {
+        .image-Representation img {
+            width: 90%;
+        }
+
+        .expression-excerpt h2 {
+            font-size: 16px;
+        }
+
+        .road-map p {
+            font-size: 14px;
+        }
+
+        .totality-white {
+            max-width: 280px;
+            width: 90%;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: var(--color-card);
+        }
+    }
+
+   
+    footer.end-page {
+        width: 100%;
+        height: auto;
+        padding: 20px 2%;
+        background-color: var(--color-footer);
+    }
+
+    .wrapper-footer .flex-position {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container-bg .full-integrated {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .connection-bond {
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .media-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .media-social .social-footer i {
+        font-size: 24px;
+    }
+
+    .terms-btn {
+        text-align: center;
+    }
+
+    .terms-btn .button-description {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .support-wraper .title-next h2 {
+        font-size: 26px;
+    }
+
+    .support-wraper .title-next .text-financial p {
+        font-size: 12px;
+    }
+
+    .phone-single .mockup-cell {
+        width: 280px;
+        height: 450px;
+    }
+
+    .details-choose h2 {
+        font-size: 22px;
+    }
+
+    .details-choose p {
+        font-size: 13px;
+    }
+
+    .case-Compartment .expression-excerpt h2 {
+        font-size: 14px;
+    }
+
+    .case-Compartment .road-map p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
 /****/
