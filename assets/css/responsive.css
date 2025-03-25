@@ -455,6 +455,12 @@
         }
     }
 
+      .menu-content {
+        nav.desktop {
+            display: none;
+        }
+    }
+
     .vertical-align {
         .phone-single {
             position: relative;
