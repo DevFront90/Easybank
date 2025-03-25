@@ -1,0 +1,18 @@
+/* color css */
+:root {
+    --color-first:#fff;
+    --color-second:#5e5e61; /* -> nav e footer */
+    --color-third:#F4F5F7; /* -> background */
+    --color-four:#A5E4DE; /* ícones e detalhes */
+    --color-five: #9698A6; /* texto secundário */
+    --color-six: #0d0e3b; /* -> Título*/
+    --font-poppins:Poppins;
+    --color-opacity:rgba(168, 168, 168, 0.6);
+    --color-overlay:rgba(0,0,0,0.6);
+    --color-card:#fff;
+    --color-seven:#f1f1f1;
+    --color-footer: #1a1a3b;
+    --color-file:#d6d5d5;
+    --color-hover:#33D35E;
+}
+/***/

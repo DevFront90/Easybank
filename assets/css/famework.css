@@ -1,0 +1,35 @@
+/* color css */
+@import "./color.css";
+/***/
+
+/* frame css */
+.flex-position {
+  display: flex;
+}
+
+
+
+.container-bg {
+    width: 100%;
+    padding: 0 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button-page {
+    display: block;
+     width: 150px;
+    height: 43px;
+    font-family: var(--font-poppins);
+    font-size: 15px;
+    color: var(--color-first);
+    background: linear-gradient(to right, #33D35E, #2AB6D9);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    
+}
+
+/***/
