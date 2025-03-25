@@ -308,6 +308,12 @@ section.articles-session {
 
 /***/
 /* footer end-page*/
+footer.end-page {
+    width: 100%;
+    height: 230px;
+    padding: 0 2%;
+    background-color: var(--color-footer);
+}
 .wrapper-footer .flex-position {
   justify-content: space-between;
 }
