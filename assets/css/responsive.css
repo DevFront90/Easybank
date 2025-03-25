@@ -544,7 +544,7 @@
         }
 
         nav.desktop {
-            display: none;
+            display: none !important;
         }
 
         .mobile-navBar.abrir-menu~.overlay-opacity {
